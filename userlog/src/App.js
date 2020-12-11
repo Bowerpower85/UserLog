@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import CardWrap from "./components/CardWrap";
 import Header from "./components/Header";
+import groupArray from "./group.json";
 
 function App() {
   return (
