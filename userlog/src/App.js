@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import CardWrap from "./components/CardWrap"
+import CardWrap from "./components/CardWrap";
+import Header from "./components/Header";
 
 function App() {
   return (
