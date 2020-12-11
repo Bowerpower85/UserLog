@@ -1,7 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import CardWrap from "./components/CardWrap";
 import Header from "./components/Header";
+import GroupCard from "./components/GroupCard"
 import groupArray from "./group.json";
+import Search from "./components/Search"
 
 function App() {
   return (
