@@ -11,7 +11,7 @@
   * [License](#license)
   * [Author](#Author)
   ## Installation
-  This project is deployed on github pages at.
+  This project is deployed on github pages at https://bowerpower85.github.io/UserLog/.
   ## Usage
   Navigate to the website and you should see a list of band members. Sort them in what way suits you best, alphabetically, by title or location. For instance if you are located in California and really don't want to travel you can sort members by location. If you really need a bassist you can sort by role. 
   ## Contributors
