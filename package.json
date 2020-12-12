@@ -1,6 +1,5 @@
 {
-  "homepage": "https://bowerpower85.github.io/UserLog/",
-  "name": "userlog",
+  "name": "UserLog",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
