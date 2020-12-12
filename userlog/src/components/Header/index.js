@@ -11,7 +11,7 @@ function Header() {
             <Container>
                 <Navbar className="justify-content-center">
                     <Nav>
-                        <Nav><h1 className="text-center text-color">Team Directory</h1></Nav>
+                        <Nav><h1 className="text-center text-color">Rock N Roll Directory</h1></Nav>
                     </Nav>
                 </Navbar>
             </Container>

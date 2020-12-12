@@ -4,6 +4,7 @@ import Bar from "./components/Bar"
 import Header from "./components/Header";
 import GroupCard from "./components/GroupCard"
 import groupArray from "./group.json";
+import Main from "./components/Main"
 
 function App() {
 
@@ -22,13 +23,6 @@ function App() {
   useEffect(() => {
     if(!search) {
       return setGroup(groupArray);
-    }
-
-    if(!/^[a-ZA-Z]*$/g.test(search)) {
-      setSearch("");
-      setGroup(groupArray);
-      setWarning(true);
-      return;
     }
 
     const results = group.filter(person => 
@@ -122,7 +116,6 @@ function App() {
             {group.map(person => (
               <GroupCard
                 key={person.id}
-                img={person.img}
                 name={person.name}
                 title={person.title}
                 location={person.location}
